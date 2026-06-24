@@ -1,0 +1,21 @@
+:root{
+    --color-de-fondo: #F7F7F7;
+    --color-de-titulos: #2C3E50;
+    --color-de-texto: #1A7CB5;
+    --color-detalles: #76C043;
+    --transiciones: #20B2AA;
+}
+body {
+    background-color: var(--color-de-fondo);
+}
+
+th {
+    background-color: var(--color-detalles);
+}
+p,li {
+    color: var(--color-de-texto);
+}
+h1, h2, h3 {
+    color: var(--color-de-titulos);
+
+}
