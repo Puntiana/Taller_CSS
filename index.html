@@ -22,6 +22,7 @@
     <main>
         <section id="inicio">
             <h1>Quiénes Somos</h1>
+            <img src="./imagenes/pesas.jpg" alt="Logo" width="200" height="150">
             <p>En Vitality Fitness, creemos que el bienestar no es un destino, sino un estilo de vida en constante movimiento. Nacimos con el propósito de ser más que un gimnasio tradicional: somos un espacio de transformación integral donde la fuerza física se encuentra con el equilibrio mental.
 
                 Nuestra filosofía se inspira en la sinergía de la vitalidad y la evolución constante. Representados por el dinamismo de nuestra comunidad, buscamos guiarte para que alcances tu máximo rendimiento, liberes tu potencial y encuentres tu propia versión de una vida plena y saludable.</p>
@@ -29,6 +30,7 @@
         </section>
         <h2>Nuestros Servicios</h2>
         <section id="nuestrosservicios">
+            <img src="./imagenes/hiit.jpg" alt="Logo" width="200" height="150">
             <table border="1">
                 <tr>
                     <th>Servicio</th>
@@ -59,14 +61,14 @@
                     <td>Permanente</td>
                 </tr>
                 <tr>
-                    <td>Programa Intensivo "Operación Verano"/td>
+                    <td>Programa Intensivo "Operación Verano"</td>
                     <td>Clases grupales de alta intensidad combinadas con retos semanales de resistencia y tonificación, ideal para ponerse en forma antes de las vacaciones.</td>
                     <td>$60.00 USD por el programa completo de 6 semanas.</td>
                     <td>Lunes, Miércoles y Viernes en dos turnos: mañana (6:00 a.m.) o noche (7:30 p.m.).</td>
                     <td>De temporada (Disponible únicamente durante los meses de marzo, abril y mayo).</td>
                 </tr>
                 <tr>
-                    <td>Bootcamp de Invierno e Inmunidadr</td>
+                    <td>Bootcamp de Invierno e Inmunidad</td>
                     <td>Entrenamiento en circuito enfocado en mantener la condición física y fortalecer el sistema inmunológico durante los meses fríos mediante ejercicios de fuerza y movilidad.</td>
                     <td>$50.00 USD por el ciclo de 4 semanas.</td>
                     <td>Sábados y Domingos de 8:00 a.m. a 9:30 a.m.</td>
@@ -80,10 +82,12 @@
                     <td>Permanente (todo el año)</td>
                 </tr>
             </table>
+            <img src="./imagenes/yoga.jpg" alt="Logo" width="200" height="150">
 
         </section>
         <section id="elegirnos">
             <h1>¿Por qué elegirnos?</h1>
+            <img src="./imagenes/nutricionista.jpg" alt="Logo" width="200" height="150">
             <p>Elegir Vitality Fitness significa apostar por un enfoque de bienestar real y sostenible que va mucho más allá de levantar pesas. Nos diferenciamos por fusionar la alta intensidad del entrenamiento físico con la calma del equilibrio mental y la guía nutricional, todo en un ambiente diseñado para inspirarte desde el primer día. Aquí no eres un número más en la sala; eres parte de una comunidad enérgica y guiada por profesionales que se preocupan genuinamente por tu evolución, tu salud y tu calidad de vida, adaptándonos a tu ritmo para ayudarte a alcanzar la cima de tu potencial.</p>
             <h3>Beneficios de entrenar con nosotros</h3>
             <ol>
@@ -92,10 +96,56 @@
                 <li>Comunidad Motivadora e Inclusiva: Disfrutarás de un ambiente libre de juicios, seguro y con la mejor energía para que disfrutes cada etapa de tu proceso.</li>
                 <li>Flexibilidad de Horarios y Programas: Nos adaptamos a tu estilo de vida con amplios horarios de apertura, sesiones personalizadas y dinámicos retos de temporada.</li>
             </ol>
+            <img src="./imagenes/1on1.jpg" alt="Logo" width="200" height="150">
         </section>
         <section id="contacto">
+            <div>
+                <h1>Contacto</h1>
+                <p>Si deseas más información sobre nuestros servicios, horarios o promociones, no dudes en contactarnos. Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.</p>
+                <br>
+                <br>
+                <form action="#" method="post">
 
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="fecha">Fecha de nacimiento:</label><br>
+                    <input type="date" id="fecha" name="fecha" required><br><br>
+
+                    <label for="telefono">Número de teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required><br><br>
+
+                    <select id="opcion" name="opcion" required>
+                    <option value="">--Seleccione el servicio que le interesa--</option>
+                    <option value="opcion1">Membresía Mensual Estándar</option>
+                    <option value="opcion2">Entrenamiento Personalizado (1-on-1)</option>
+                    <option value="opcion3">Asesoría Nutricional y Composición Corporal</option>
+                    <option value="opcion4">Programa Intensivo "Operación Verano"</option>
+                    <option value="opcion5">Bootcamp de Invierno e Inmunidad</option>
+                    <option value="opcion6">Clases de Yoga & Mindfulness para Reducción de Estrés</option>
+                    </select> <br><br>
+
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </form>
+            </div>
         </section>
     </main>
+        <footer>
+        <h3>Redes Sociales</h3>
+                    <a href="#"><img src="./imagenes/facebook.jpeg" alt="Facebook" width="40"></a>
+                    <a href="#"> <img src="./imagenes/instagram.jpeg" alt="Instagram" width="40"></a>
+
+        <p>Derechos de autor © Vitality Fitness</p>
+        <p>Correo electrónico: info@vitalityfitness.com</p>
+        <p>Teléfono: 22331-2056 / 22331-2057</p>
+        <p>2026</p>
+    </footer>
 </body>
 </html>
