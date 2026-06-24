@@ -59,14 +59,14 @@
                     <td>Permanente</td>
                 </tr>
                 <tr>
-                    <td>Programa Intensivo "Operación Verano"/td>
+                    <td>Programa Intensivo "Operación Verano"</td>
                     <td>Clases grupales de alta intensidad combinadas con retos semanales de resistencia y tonificación, ideal para ponerse en forma antes de las vacaciones.</td>
                     <td>$60.00 USD por el programa completo de 6 semanas.</td>
                     <td>Lunes, Miércoles y Viernes en dos turnos: mañana (6:00 a.m.) o noche (7:30 p.m.).</td>
                     <td>De temporada (Disponible únicamente durante los meses de marzo, abril y mayo).</td>
                 </tr>
                 <tr>
-                    <td>Bootcamp de Invierno e Inmunidadr</td>
+                    <td>Bootcamp de Invierno e Inmunidad</td>
                     <td>Entrenamiento en circuito enfocado en mantener la condición física y fortalecer el sistema inmunológico durante los meses fríos mediante ejercicios de fuerza y movilidad.</td>
                     <td>$50.00 USD por el ciclo de 4 semanas.</td>
                     <td>Sábados y Domingos de 8:00 a.m. a 9:30 a.m.</td>
@@ -94,7 +94,42 @@
             </ol>
         </section>
         <section id="contacto">
+            <div>
+                <h1>Contacto</h1>
+                <p>Si deseas más información sobre nuestros servicios, horarios o promociones, no dudes en contactarnos. Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.</p>
+                <br>
+                <br>
+                <form action="#" method="post">
 
+                    <label for="nombre">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="fecha">Fecha de nacimiento:</label><br>
+                    <input type="date" id="fecha" name="fecha" required><br><br>
+
+                    <label for="telefono">Número de teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" required><br><br>
+
+                    <select id="opcion" name="opcion" required>
+                    <option value="">--Seleccione el servicio que le interesa--</option>
+                    <option value="opcion1">Membresía Mensual Estándar</option>
+                    <option value="opcion2">Entrenamiento Personalizado (1-on-1)</option>
+                    <option value="opcion3">Asesoría Nutricional y Composición Corporal</option>
+                    <option value="opcion4">Programa Intensivo "Operación Verano"</option>
+                    <option value="opcion5">Bootcamp de Invierno e Inmunidad</option>
+                    <option value="opcion6">Clases de Yoga & Mindfulness para Reducción de Estrés</option>
+                    </select> <br><br>
+
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br><br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </form>
+            </div>
         </section>
     </main>
 </body>
